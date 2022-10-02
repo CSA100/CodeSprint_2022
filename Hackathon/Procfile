@@ -1,0 +1,2 @@
+web: gunicorn psa-central.wsgi
+release: python manage.py migrate
